@@ -1,0 +1,16 @@
+{
+  "bookings": [
+    {
+      "bookingRef": "ADE9452",
+      "startDate": "2018-07-06",
+      "endDate": "2018-07-22",
+      "country": "Italy"
+    },
+    {
+      "bookingRef": "ADE9452",
+      "startDate": "2018-07-06",
+      "endDate": "2018-07-22",
+      "country": "Italy"
+    }
+  ]
+}

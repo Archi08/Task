@@ -1,0 +1,175 @@
+{
+  "bookingRef": "ADE9452",
+  "status": "POST",
+  "startDate": "2018-07-06",
+  "endDate": "2018-07-24",
+  "flights": [
+    {
+      "flightOperator": "TUI",
+      "departureDatetime": "2018-07-06T12:10:00+02:00",
+      "departureAirport": "MUC",
+      "arrivalDatetime": "2018-07-06T13:50:00+02:00",
+      "arrivalAirport": "FCO",
+      "type": "INBOUND"
+    },
+    {
+      "flightOperator": "TUI",
+      "departureDatetime": "2018-07-12T10:00:00+02:00",
+      "departureAirport": "FCO",
+      "arrivalDatetime": "2018-07-12T10:20:00+02:00",
+      "arrivalAirport": "FLR",
+      "type": "INTERMEDIATE"
+    },
+    {
+      "flightOperator": "TUI",
+      "departureDatetime": "2018-07-18T11:40:00+02:00",
+      "departureAirport": "FLR",
+      "arrivalDatetime": "2018-07-18T12:00:00+02:00",
+      "arrivalAirport": "MXP",
+      "type": "INTERMEDIATE"
+    },
+    {
+      "flightOperator": "TUI",
+      "departureDatetime": "2018-07-24T15:20:00+02:00",
+      "departureAirport": "MXP",
+      "arrivalDatetime": "2018-07-24T16:00:00+02:00",
+      "arrivalAirport": "MUC",
+      "type": "OUTBOUND"
+    }
+  ],
+  "accomodation": [
+    {
+      "id": "AC05939",
+      "name": "Hotel de la rome",
+      "country": "Italy",
+      "startDate": "2018-07-06",
+      "endDate": "2018-07-12",
+      "rooms": [
+        {
+          "roomType": "DELUX",
+          "guests": [
+            {
+              "fullName": "Kurt Fritze",
+              "firstName": "Kurt",
+              "lastName": "Fritze",
+              "lead": "true"
+            },
+            {
+              "fullName": "Emma Fritze",
+              "firstName": "Emma",
+              "lastName": "Fritze",
+              "lead": false
+            },
+            {
+              "fullName": "Mila Fritze",
+              "firstName": "Mila",
+              "lastName": "Fritze",
+              "lead": false
+            },
+            {
+              "fullName": "Anna Fritze",
+              "firstName": "Anna",
+              "lastName": "Fritze",
+              "lead": false
+            }
+          ],
+          "roomNumbers": [
+            15,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AC05939",
+      "name": "Hotel de la rome",
+      "country": "Italy",
+      "startDate": "2018-07-12",
+      "endDate": "2018-07-18",
+      "rooms": [
+        {
+          "roomType": "DELUX",
+          "guests": [
+            {
+              "fullName": "Kurt Fritze",
+              "firstName": "Kurt",
+              "lastName": "Fritze",
+              "lead": true
+            },
+            {
+              "fullName": "Emma Fritze",
+              "firstName": "Emma",
+              "lastName": "Fritze",
+              "lead": false
+            }
+          ],
+          "roomNumbers": [
+            142
+          ]
+        },
+        {
+          "roomType": "STANDARD",
+          "guests": [
+            {
+              "fullName": "Mila Fritze",
+              "firstName": "Mila",
+              "lastName": "Fritze",
+              "lead": false
+            },
+            {
+              "fullName": "Anna Fritze",
+              "firstName": "Anna",
+              "lastName": "Fritze",
+              "lead": false
+            }
+          ],
+          "roomNumbers": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AC05939",
+      "name": "Hotel de la rome",
+      "country": "Italy",
+      "startDate": "2018-07-18",
+      "endDate": "2018-07-24",
+      "rooms": [
+        {
+          "roomType": "DELUX",
+          "guests": [
+            {
+              "fullName": "Kurt Fritze",
+              "firstName": "Kurt",
+              "lastName": "Fritze",
+              "lead": true
+            },
+            {
+              "fullName": "Emma Fritze",
+              "firstName": "Emma",
+              "lastName": "Fritze",
+              "lead": false
+            },
+            {
+              "fullName": "Mila Fritze",
+              "firstName": "Mila",
+              "lastName": "Fritze",
+              "lead": false
+            },
+            {
+              "fullName": "Anna Fritze",
+              "firstName": "Anna",
+              "lastName": "Fritze",
+              "lead": false
+            }
+          ],
+          "roomNumbers": [
+            "8C",
+            "2B"
+          ]
+        }
+      ]
+    }
+  ]
+}
